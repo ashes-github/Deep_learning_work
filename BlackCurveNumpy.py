@@ -73,9 +73,9 @@ class Neural_Network(object):
         #parameters
         self.inputSize = 1
         self.outputSize = 1
-        self.hiddenSize1 = 10
-        self.hiddenSize2 = 10
-        self.hiddenSize3 = 10
+        self.hiddenSize1 = 1000
+        self.hiddenSize2 = 1000
+        self.hiddenSize3 = 1000
         
         #weights
         self.W1 = np.random.randn(self.inputSize, self.hiddenSize1) * np.sqrt(2/self.inputSize) # (3x2) weight matrix from input to hidden layer
